@@ -8,13 +8,13 @@
         "typescript",
         "python"
     ],
-    "homepage": "https://screeps.admon.dev",
-    "bugs": "https://github.com/admon84/screeps-tools/issues",
+    "homepage": "https://screeps.michaellamb.dev",
+    "bugs": "https://github.com/michaellambgelo/screeps-tools/issues",
     "license": "MIT",
-    "author": "admon84",
+    "author": "michaellambgelo",
     "repository": {
         "type": "git",
-        "url": "https://github.com/admon84/screeps-tools.git"
+        "url": "https://github.com/michaellambgelo/screeps-tools.git"
     },
     "scripts": {
         "build": "rollup -c && tsc",

@@ -61,9 +61,9 @@ def home(path):
     return render_template("index.html", cache_buster=build_time)
 
 def get_screeps_api(world):
-    prefix = '/season' if world == 'season' else None
+    prefix = '/' if world == 'season' else None
     return ScreepsAPI(
-        host='screeps.com',
+        host='screeps.cspiregaming.com',
         prefix=prefix,
         secure=True
     )
